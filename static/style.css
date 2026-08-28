@@ -1,0 +1,136 @@
+body {
+    background-color: #f9ebd3;
+}
+
+.navbar-container {
+    width: 90%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+    padding: 0.75rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.crime-page {
+    width: 90%;
+    max-width: 1400px;
+
+    margin: 2rem auto;
+}
+
+.crime-controls-card {
+    margin-bottom: 1.5rem;
+}
+
+.crime-table-section {
+    background-color: white;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+.crime-row {
+    cursor: pointer;
+}
+
+.crime-record-box {
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.crime-detail {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.crime-detail:last-child {
+    border-bottom: none;
+}
+
+.crime-detail strong {
+    color: #212529;
+}
+
+.crime-detail span {
+    color: #495057;
+}
+
+.metadata-page {
+    max-width: 1400px;
+}
+
+.metadata-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.metadata-heading h1 {
+    margin-bottom: 0.5rem;
+}
+
+.metadata-heading p {
+    color: #6c757d;
+}
+
+.metadata-section {
+    margin-bottom: 3rem;
+}
+
+.metadata-section h2 {
+    margin-bottom: 1rem;
+}
+
+.metadata-card {
+    height: 100%;
+    text-align: center;
+}
+
+.metadata-label {
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.metadata-card h3 {
+    margin: 0;
+}
+
+.metadata-table-card {
+    overflow: hidden;
+}
+
+.section-description {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.analytics-page {
+    max-width: 1400px;
+}
+
+.analytics-section {
+    margin-top: 2rem;
+}
+
+.graph-card {
+    height: 100%;
+}
+
+.graph-card .card-title {
+    margin-bottom: 1.5rem;
+}
+
+.graph-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

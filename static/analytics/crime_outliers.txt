@@ -1,0 +1,18 @@
+============================================================
+	CRIME COUNT OUTLIER ANALYSIS
+============================================================
+
+IQR STATISTICS
+----------------------------------------
+QUARTER 1: 22.0
+QUARTER 3: 29.0
+IQR: 7.0
+Lower Bound: 11.5
+Upper Bound: 39.5
+
+OUTLIER COMMUNITIES
+----------------------------------------
+COMMUNITY_CODE COMMUNITY_NAME  TOTAL_CRIMES
+          56.0 Garfield Ridge            76
+
+============================================================

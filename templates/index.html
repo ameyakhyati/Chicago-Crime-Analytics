@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<head>
+    <title>Chicago Crime Dashboard</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <nav class="bg-body-tertiary">
+        <div class="navbar-container">
+            <h3>Chicago Crime Data Pipeline </h3>
+            <div class="d-flex gap-2">
+                <a href="/" class="btn btn-outline-primary">Crime Records</a>
+                <a href="/usecase1" class="btn btn-outline-primary">UseCase 1</a>
+                <a href="/usecase2" class="btn btn-outline-primary">UseCase 2</a>
+                <a href="/usecase3" class="btn btn-outline-primary">UseCase 3</a>
+                <a href="/usecase4" class="btn btn-outline-primary">UseCase 4</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="crime-page">
+            <section class="card crime-controls-card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2 class="mb-0">Crime Records</h2>
+                        <div class="d-flex gap-2">
+                            <button id="get-crime-btn" type="button" class="btn btn-primary">Get Crime</button>
+                            <button id="add-crime-btn" type="button" class="btn btn-success">Add Crime</button>
+                            <button id="delete-crime-btn" type="button" class="btn btn-danger">Delete Crime</button>
+                            <button id="edit-crime-btn" type="button" class="btn btn-warning">Edit Crime</button>
+                        </div>
+                    </div>
+                    <div id="action-message" class="mt-3"></div>
+                    <div id="crime-record-count" class="text-muted mt-3">Total Crime Records: 0</div>
+                </div>
+            </section>
+            <section class="crime-table-section">
+                <div id="crime-table-container">
+                    <p>Loading crime records...</p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <div class="modal fade" id="get-crime-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="getCrimeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="getCrimeModalLabel">Crime Record</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div id="get-crime-result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="crime-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="crimeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h2 class="modal-title" id="crimeModalLabel">Add Crime</h2>
+                    <button type="button" id="close-modal-btn" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="crime-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                    		<label for="case-number" class="form-label">Case Number</label>
+                    		<input type="text" id="case-number" name="CASE_NUMBER" class="form-control" required>
+                	    </div>
+                	    <div class="col-md-6">
+                    <label for="incident-date" class="form-label">Incident Date</label>
+                    <input type="date" id="incident-date" name="INCIDENT_DATE" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="incident-time" class="form-label">Incident Time</label>
+                    <input type="time" id="incident-time" name="INCIDENT_TIME" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="block" class="form-label">Block</label>
+                    <input type="text" id="block" name="BLOCK" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label for="iucr-code" class="form-label">IUCR Code</label>
+                    <select id="iucr-code" name="IUCR_CODE" class="form-select" required>
+                        <option value="">Select IUCR Code</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="primary-type" class="form-label">Primary Type</label>
+                    <input type="text" id="primary-type" name="PRIMARY_TYPE" class="form-control" readonly>
+                </div>
+                <div class="col-12">
+                    <label for="description" class="form-label">Description</label>
+                    <input type="text" id="description" name="DESCRIPTION" class="form-control" readonly>
+                </div>
+                <div class="col-md-6">
+                    <label for="location-desc" class="form-label">Location Description</label>
+                    <input type="text" id="location-desc" name="LOCATION_DESC" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label for="fbi-code" class="form-label">FBI Code</label>
+                    <input type="text" id="fbi-code" name="FBI_CODE" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label for="beat-num" class="form-label">Beat</label>
+                    <select id="beat-num" name="BEAT_NUM" class="form-select" required>
+                        <option value="">Select Beat</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="district-code" class="form-label">District</label>
+                    <select id="district-code" name="DISTRICT_CODE" class="form-select" required>
+                        <option value="">Select District</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="ward-no" class="form-label">Ward</label>
+                    <select id="ward-no" name="WARD_NO" class="form-select">
+                        <option value="">Select Ward</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="community-code" class="form-label">Community</label>
+                    <select id="community-code" name="COMMUNITY_CODE" class="form-select">
+                        <option value="">Select Community</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="arrest" class="form-label">Arrest</label>
+                    <select id="arrest" name="ARREST" class="form-select">
+                        <option value="false">No</option>
+                        <option value="true">Yes</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="domestic" class="form-label">Domestic</label>
+                    <select id="domestic" name="DOMESTIC" class="form-select">
+                        <option value="false">No</option>
+                        <option value="true">Yes</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="x-coordinate" class="form-label">X Coordinate</label>
+                    <input type="number" step="any" id="x-coordinate" name="X_COORDINATE" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label for="y-coordinate" class="form-label">Y Coordinate</label>
+                    <input type="number" step="any" id="y-coordinate" name="Y_COORDINATE" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label for="latitude" class="form-label">Latitude</label>
+                    <input type="number" step="any" id="latitude" name="LATITUDE" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label for="longitude" class="form-label">Longitude</label>
+                    <input type="number" step="any" id="longitude" name="LONGITUDE" class="form-control">
+                </div>
+                <div class="col-12">
+                    <label for="location" class="form-label">Location</label>
+                    <input type="text" id="location" name="LOCATION" class="form-control">
+                </div>
+            </div>
+            </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" id="cancel-crime-btn" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" form="crime-form" id="save-crime-btn" class="btn btn-success">Save Crime</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+     <div class="modal fade" id="delete-crime-modal" tabindex="-1" aria-labelledby="deleteCrimeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h2 class="modal-title" id="deleteCrimeModalLabel">Delete Crime</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="delete-crime-message">Are you sure you want to delete this crime record?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" id="confirm-delete-btn" class="btn btn-danger">Delete Crime</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="success-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="success-modal-title">Success</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="success-modal-message"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

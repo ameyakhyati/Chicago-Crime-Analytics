@@ -1,0 +1,74 @@
+================================================================================
+	METADATA REPORT FOR police_beat_data
+================================================================================
+
+
+
+Please NOTE that the metadata of dataset is generated before transforming it, to get idea as to what the raw dataset looks like.
+
+
+
+DATASET SHAPE : The dataset contains 198 rows and 4 cols.
+DATASET COLUMN-WISE INFO : 
+--------------------------------------------------
+<class 'pandas.DataFrame'>
+RangeIndex: 198 entries, 0 to 197
+Data columns (total 4 columns):
+ #   Column    Non-Null Count  Dtype
+---  ------    --------------  -----
+ 0   DISTRICT  198 non-null    int64
+ 1   SECTOR    198 non-null    int64
+ 2   BEAT      198 non-null    int64
+ 3   BEAT_NUM  198 non-null    int64
+dtypes: int64(4)
+memory usage: 6.3 KB
+
+--------------------------------------------------
+
+DATASET RECORD PEEK - FIRST 10 RECORDS
+--------------------------------------------------
+   DISTRICT  SECTOR  BEAT  BEAT_NUM
+0         1       1     1       111
+1         1       1     2       112
+2         1       1     3       113
+3         1       2     1       121
+4         1       2     2       122
+5         1       2     3       123
+6         1       3     1       131
+7         1       3     2       132
+8         1       3     3       133
+9         2       1     1       211
+--------------------------------------------------
+
+DATASET MISSING VALUES - PER COLUMN
+--------------------------------------------------
+DISTRICT    0
+SECTOR      0
+BEAT        0
+BEAT_NUM    0
+--------------------------------------------------
+
+DATASET MISSING VALUES PERCENT - PER COLUMN
+--------------------------------------------------
+DISTRICT    0.0
+SECTOR      0.0
+BEAT        0.0
+BEAT_NUM    0.0
+--------------------------------------------------
+
+DATASET DESCRIPTION - FOR DETECTING OUTLIERS
+--------------------------------------------------
+         DISTRICT      SECTOR        BEAT     BEAT_NUM
+count  198.000000  198.000000  198.000000   198.000000
+mean    12.181818    2.000000    2.000000  1240.181818
+std      7.157210    0.818566    0.818566   715.768294
+min      1.000000    1.000000    1.000000   111.000000
+25%      6.000000    1.000000    1.000000   622.250000
+50%     11.500000    2.000000    2.000000  1172.000000
+75%     18.000000    3.000000    3.000000  1821.750000
+max     25.000000    3.000000    3.000000  2533.000000
+--------------------------------------------------
+
+
+
+================================================================================

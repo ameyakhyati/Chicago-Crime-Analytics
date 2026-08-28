@@ -1,0 +1,117 @@
+{
+    "dataset_name": "iucr_data",
+    "rows": 117,
+    "columns": 4,
+    "column_info": [
+        {
+            "index": 0,
+            "name": "IUCR_CODE",
+            "non_null": 117,
+            "dtype": "int64"
+        },
+        {
+            "index": 1,
+            "name": "PRIMARY_TYPE",
+            "non_null": 117,
+            "dtype": "str"
+        },
+        {
+            "index": 2,
+            "name": "DESCRIPTION",
+            "non_null": 117,
+            "dtype": "str"
+        },
+        {
+            "index": 3,
+            "name": "INDEX_CODE",
+            "non_null": 117,
+            "dtype": "str"
+        }
+    ],
+    "records": [
+        {
+            "IUCR_CODE": 110,
+            "PRIMARY_TYPE": "HOMICIDE",
+            "DESCRIPTION": "FIRST DEGREE MURDER",
+            "INDEX_CODE": "I"
+        },
+        {
+            "IUCR_CODE": 130,
+            "PRIMARY_TYPE": "HOMICIDE",
+            "DESCRIPTION": "SECOND DEGREE MURDER",
+            "INDEX_CODE": "I"
+        },
+        {
+            "IUCR_CODE": 141,
+            "PRIMARY_TYPE": "HOMICIDE",
+            "DESCRIPTION": "INVOLUNTARY MANSLAUGHTER",
+            "INDEX_CODE": "I"
+        },
+        {
+            "IUCR_CODE": 142,
+            "PRIMARY_TYPE": "HOMICIDE",
+            "DESCRIPTION": "RECKLESS HOMICIDE",
+            "INDEX_CODE": "I"
+        },
+        {
+            "IUCR_CODE": 261,
+            "PRIMARY_TYPE": "CRIM SEXUAL ASSAULT",
+            "DESCRIPTION": "AGGRAVATED: HANDGUN",
+            "INDEX_CODE": "I"
+        },
+        {
+            "IUCR_CODE": 262,
+            "PRIMARY_TYPE": "CRIM SEXUAL ASSAULT",
+            "DESCRIPTION": "AGGRAVATED: OTHER FIREARM",
+            "INDEX_CODE": "I"
+        },
+        {
+            "IUCR_CODE": 263,
+            "PRIMARY_TYPE": "CRIM SEXUAL ASSAULT",
+            "DESCRIPTION": "AGGRAVATED: KNIFE/CUT INSTR",
+            "INDEX_CODE": "I"
+        },
+        {
+            "IUCR_CODE": 264,
+            "PRIMARY_TYPE": "CRIM SEXUAL ASSAULT",
+            "DESCRIPTION": "AGGRAVATED: OTHER DANG WEAPON",
+            "INDEX_CODE": "I"
+        },
+        {
+            "IUCR_CODE": 265,
+            "PRIMARY_TYPE": "CRIM SEXUAL ASSAULT",
+            "DESCRIPTION": "AGGRAVATED: OTHER",
+            "INDEX_CODE": "I"
+        },
+        {
+            "IUCR_CODE": 266,
+            "PRIMARY_TYPE": "CRIM SEXUAL ASSAULT",
+            "DESCRIPTION": "PREDATORY",
+            "INDEX_CODE": "I"
+        }
+    ],
+    "missing_values": {
+        "IUCR_CODE": 0,
+        "PRIMARY_TYPE": 0,
+        "DESCRIPTION": 0,
+        "INDEX_CODE": 0
+    },
+    "missing_percentages": {
+        "IUCR_CODE": 0.0,
+        "PRIMARY_TYPE": 0.0,
+        "DESCRIPTION": 0.0,
+        "INDEX_CODE": 0.0
+    },
+    "description": {
+        "IUCR_CODE": {
+            "count": 117.0,
+            "mean": 1046.8119658119658,
+            "std": 1226.73116895678,
+            "min": 110.0,
+            "25%": 470.0,
+            "50%": 670.0,
+            "75%": 1090.0,
+            "max": 5017.0
+        }
+    }
+}

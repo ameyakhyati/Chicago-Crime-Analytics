@@ -1,0 +1,353 @@
+{
+    "dataset_name": "ward_office_data",
+    "rows": 50,
+    "columns": 16,
+    "column_info": [
+        {
+            "index": 0,
+            "name": "WARD_NO",
+            "non_null": 50,
+            "dtype": "int64"
+        },
+        {
+            "index": 1,
+            "name": "ALDERMAN",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 2,
+            "name": "ADDRESS",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 3,
+            "name": "CITY",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 4,
+            "name": "STATE",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 5,
+            "name": "ZIPCODE",
+            "non_null": 50,
+            "dtype": "int64"
+        },
+        {
+            "index": 6,
+            "name": "WARD_PHONE",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 7,
+            "name": "WARD_FAX",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 8,
+            "name": "EMAIL",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 9,
+            "name": "WEBSITE",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 10,
+            "name": "LOCATION",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 11,
+            "name": "CITY_HALL_ADDRESS",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 12,
+            "name": "CITY_HALL_CITY",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 13,
+            "name": "CITY_HALL_STATE",
+            "non_null": 50,
+            "dtype": "str"
+        },
+        {
+            "index": 14,
+            "name": "CITY_HALL_ZIPCODE",
+            "non_null": 50,
+            "dtype": "int64"
+        },
+        {
+            "index": 15,
+            "name": "CITY_HALL_PHONE",
+            "non_null": 50,
+            "dtype": "str"
+        }
+    ],
+    "records": [
+        {
+            "WARD_NO": 1,
+            "ALDERMAN": "La Spata Daniel",
+            "ADDRESS": "1958 North Milwaukee Avenue",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIPCODE": 60647,
+            "WARD_PHONE": "(872) 206-2685",
+            "WARD_FAX": "(312) 448-8829",
+            "EMAIL": "info@the1stward.com",
+            "WEBSITE": "https://www.the1stward.com/",
+            "LOCATION": "(41.917215, -87.68799)",
+            "CITY_HALL_ADDRESS": "121 North LaSalle Street, Room 200, Office 13",
+            "CITY_HALL_CITY": "Chicago",
+            "CITY_HALL_STATE": "IL",
+            "CITY_HALL_ZIPCODE": 60602,
+            "CITY_HALL_PHONE": "(312) 744-3063"
+        },
+        {
+            "WARD_NO": 2,
+            "ALDERMAN": "Hopkins Brian",
+            "ADDRESS": "1400 N Ashland Ave",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIPCODE": 60622,
+            "WARD_PHONE": "(312) 643-2299",
+            "WARD_FAX": "(312) 643-2307",
+            "EMAIL": "ward02@cityofchicago.org",
+            "WEBSITE": "https://www.ward02.com/",
+            "LOCATION": "(41.909812, -87.66799)",
+            "CITY_HALL_ADDRESS": "121 North LaSalle Street, Room 200, Office 28",
+            "CITY_HALL_CITY": "Chicago",
+            "CITY_HALL_STATE": "IL",
+            "CITY_HALL_ZIPCODE": 60602,
+            "CITY_HALL_PHONE": "(312) 744-6836"
+        },
+        {
+            "WARD_NO": 3,
+            "ALDERMAN": "King Pat",
+            "ADDRESS": "5046 S State St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIPCODE": 60609,
+            "WARD_PHONE": "(773) 373-9273",
+            "WARD_FAX": "(773) 373-6700",
+            "EMAIL": "ward03@cityofchicago.org",
+            "WEBSITE": "https://www.ward03.com/",
+            "LOCATION": "(41.801912, -87.62799)",
+            "CITY_HALL_ADDRESS": "121 North LaSalle Street, Room 200, Office 20",
+            "CITY_HALL_CITY": "Chicago",
+            "CITY_HALL_STATE": "IL",
+            "CITY_HALL_ZIPCODE": 60602,
+            "CITY_HALL_PHONE": "(312) 744-8028"
+        },
+        {
+            "WARD_NO": 4,
+            "ALDERMAN": "Dowell Sophia King",
+            "ADDRESS": "435 E 35th St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIPCODE": 60616,
+            "WARD_PHONE": "(773) 536-8103",
+            "WARD_FAX": "(773) 536-7296",
+            "EMAIL": "ward04@cityofchicago.org",
+            "WEBSITE": "https://www.ward04.com/",
+            "LOCATION": "(41.830812, -87.61799)",
+            "CITY_HALL_ADDRESS": "121 North LaSalle Street, Room 200, Office 22",
+            "CITY_HALL_CITY": "Chicago",
+            "CITY_HALL_STATE": "IL",
+            "CITY_HALL_ZIPCODE": 60602,
+            "CITY_HALL_PHONE": "(312) 744-2690"
+        },
+        {
+            "WARD_NO": 5,
+            "ALDERMAN": "Hairston Leslie",
+            "ADDRESS": "2325 E 71st St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIPCODE": 60649,
+            "WARD_PHONE": "(773) 324-5555",
+            "WARD_FAX": "(773) 324-1585",
+            "EMAIL": "ward05@cityofchicago.org",
+            "WEBSITE": "https://www.ward05.com/",
+            "LOCATION": "(41.765812, -87.56799)",
+            "CITY_HALL_ADDRESS": "121 North LaSalle Street, Room 200, Office 19",
+            "CITY_HALL_CITY": "Chicago",
+            "CITY_HALL_STATE": "IL",
+            "CITY_HALL_ZIPCODE": 60602,
+            "CITY_HALL_PHONE": "(312) 744-6832"
+        },
+        {
+            "WARD_NO": 6,
+            "ALDERMAN": "Sawyer Roderick",
+            "ADDRESS": "7901 S Loomis Blvd",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIPCODE": 60620,
+            "WARD_PHONE": "(773) 635-0006",
+            "WARD_FAX": "(773) 635-0007",
+            "EMAIL": "ward06@cityofchicago.org",
+            "WEBSITE": "https://www.ward06.com/",
+            "LOCATION": "(41.751812, -87.65799)",
+            "CITY_HALL_ADDRESS": "121 North LaSalle Street, Room 200, Office 31",
+            "CITY_HALL_CITY": "Chicago",
+            "CITY_HALL_STATE": "IL",
+            "CITY_HALL_ZIPCODE": 60602,
+            "CITY_HALL_PHONE": "(312) 744-6839"
+        },
+        {
+            "WARD_NO": 7,
+            "ALDERMAN": "Mitchell Gregory",
+            "ADDRESS": "2258 E 75th St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIPCODE": 60649,
+            "WARD_PHONE": "(773) 731-7777",
+            "WARD_FAX": "(773) 731-7770",
+            "EMAIL": "ward07@cityofchicago.org",
+            "WEBSITE": "https://www.ward07.com/",
+            "LOCATION": "(41.759912, -87.56799)",
+            "CITY_HALL_ADDRESS": "121 North LaSalle Street, Room 200, Office 21",
+            "CITY_HALL_CITY": "Chicago",
+            "CITY_HALL_STATE": "IL",
+            "CITY_HALL_ZIPCODE": 60602,
+            "CITY_HALL_PHONE": "(312) 744-6833"
+        },
+        {
+            "WARD_NO": 8,
+            "ALDERMAN": "Harris Michelle",
+            "ADDRESS": "8539 S Cottage Grove",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIPCODE": 60619,
+            "WARD_PHONE": "(773) 933-9273",
+            "WARD_FAX": "(773) 933-9279",
+            "EMAIL": "ward08@cityofchicago.org",
+            "WEBSITE": "https://www.ward08.com/",
+            "LOCATION": "(41.739812, -87.60799)",
+            "CITY_HALL_ADDRESS": "121 North LaSalle Street, Room 200, Office 25",
+            "CITY_HALL_CITY": "Chicago",
+            "CITY_HALL_STATE": "IL",
+            "CITY_HALL_ZIPCODE": 60602,
+            "CITY_HALL_PHONE": "(312) 744-6834"
+        },
+        {
+            "WARD_NO": 9,
+            "ALDERMAN": "Beale Anthony",
+            "ADDRESS": "34 E 112th Pl",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIPCODE": 60628,
+            "WARD_PHONE": "(773) 785-1100",
+            "WARD_FAX": "(773) 785-1101",
+            "EMAIL": "ward09@cityofchicago.org",
+            "WEBSITE": "https://www.ward09.com/",
+            "LOCATION": "(41.692812, -87.60799)",
+            "CITY_HALL_ADDRESS": "121 North LaSalle Street, Room 200, Office 24",
+            "CITY_HALL_CITY": "Chicago",
+            "CITY_HALL_STATE": "IL",
+            "CITY_HALL_ZIPCODE": 60602,
+            "CITY_HALL_PHONE": "(312) 744-6835"
+        },
+        {
+            "WARD_NO": 10,
+            "ALDERMAN": "O'Shea Susan",
+            "ADDRESS": "2458 E 75th St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIPCODE": 60649,
+            "WARD_PHONE": "(773) 731-0096",
+            "WARD_FAX": "(773) 731-0098",
+            "EMAIL": "ward10@cityofchicago.org",
+            "WEBSITE": "https://www.ward10.com/",
+            "LOCATION": "(41.757812, -87.55799)",
+            "CITY_HALL_ADDRESS": "121 North LaSalle Street, Room 200, Office 30",
+            "CITY_HALL_CITY": "Chicago",
+            "CITY_HALL_STATE": "IL",
+            "CITY_HALL_ZIPCODE": 60602,
+            "CITY_HALL_PHONE": "(312) 744-6838"
+        }
+    ],
+    "missing_values": {
+        "WARD_NO": 0,
+        "ALDERMAN": 0,
+        "ADDRESS": 0,
+        "CITY": 0,
+        "STATE": 0,
+        "ZIPCODE": 0,
+        "WARD_PHONE": 0,
+        "WARD_FAX": 0,
+        "EMAIL": 0,
+        "WEBSITE": 0,
+        "LOCATION": 0,
+        "CITY_HALL_ADDRESS": 0,
+        "CITY_HALL_CITY": 0,
+        "CITY_HALL_STATE": 0,
+        "CITY_HALL_ZIPCODE": 0,
+        "CITY_HALL_PHONE": 0
+    },
+    "missing_percentages": {
+        "WARD_NO": 0.0,
+        "ALDERMAN": 0.0,
+        "ADDRESS": 0.0,
+        "CITY": 0.0,
+        "STATE": 0.0,
+        "ZIPCODE": 0.0,
+        "WARD_PHONE": 0.0,
+        "WARD_FAX": 0.0,
+        "EMAIL": 0.0,
+        "WEBSITE": 0.0,
+        "LOCATION": 0.0,
+        "CITY_HALL_ADDRESS": 0.0,
+        "CITY_HALL_CITY": 0.0,
+        "CITY_HALL_STATE": 0.0,
+        "CITY_HALL_ZIPCODE": 0.0,
+        "CITY_HALL_PHONE": 0.0
+    },
+    "description": {
+        "WARD_NO": {
+            "count": 50.0,
+            "mean": 25.5,
+            "std": 14.577379737113251,
+            "min": 1.0,
+            "25%": 13.25,
+            "50%": 25.5,
+            "75%": 37.75,
+            "max": 50.0
+        },
+        "ZIPCODE": {
+            "count": 50.0,
+            "mean": 60621.44,
+            "std": 14.189907307229145,
+            "min": 60601.0,
+            "25%": 60611.25,
+            "50%": 60619.5,
+            "75%": 60625.75,
+            "max": 60659.0
+        },
+        "CITY_HALL_ZIPCODE": {
+            "count": 50.0,
+            "mean": 60602.0,
+            "std": 0.0,
+            "min": 60602.0,
+            "25%": 60602.0,
+            "50%": 60602.0,
+            "75%": 60602.0,
+            "max": 60602.0
+        }
+    }
+}

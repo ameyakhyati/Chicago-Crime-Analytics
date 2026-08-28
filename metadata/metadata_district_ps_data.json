@@ -1,0 +1,365 @@
+{
+    "dataset_name": "district_ps_data",
+    "rows": 22,
+    "columns": 15,
+    "column_info": [
+        {
+            "index": 0,
+            "name": "DISTRICT_CODE",
+            "non_null": 22,
+            "dtype": "int64"
+        },
+        {
+            "index": 1,
+            "name": "DISTRICT_NAME",
+            "non_null": 22,
+            "dtype": "str"
+        },
+        {
+            "index": 2,
+            "name": "ADDRESS",
+            "non_null": 22,
+            "dtype": "str"
+        },
+        {
+            "index": 3,
+            "name": "CITY",
+            "non_null": 22,
+            "dtype": "str"
+        },
+        {
+            "index": 4,
+            "name": "STATE",
+            "non_null": 22,
+            "dtype": "str"
+        },
+        {
+            "index": 5,
+            "name": "ZIP",
+            "non_null": 22,
+            "dtype": "int64"
+        },
+        {
+            "index": 6,
+            "name": "WEBSITE",
+            "non_null": 22,
+            "dtype": "str"
+        },
+        {
+            "index": 7,
+            "name": "PHONE",
+            "non_null": 22,
+            "dtype": "str"
+        },
+        {
+            "index": 8,
+            "name": "FAX",
+            "non_null": 22,
+            "dtype": "str"
+        },
+        {
+            "index": 9,
+            "name": "TTY",
+            "non_null": 22,
+            "dtype": "str"
+        },
+        {
+            "index": 10,
+            "name": "X_COORDINATE",
+            "non_null": 22,
+            "dtype": "float64"
+        },
+        {
+            "index": 11,
+            "name": "Y_COORDINATE",
+            "non_null": 22,
+            "dtype": "float64"
+        },
+        {
+            "index": 12,
+            "name": "LATITUDE",
+            "non_null": 22,
+            "dtype": "float64"
+        },
+        {
+            "index": 13,
+            "name": "LONGITUDE",
+            "non_null": 22,
+            "dtype": "float64"
+        },
+        {
+            "index": 14,
+            "name": "LOCATION",
+            "non_null": 22,
+            "dtype": "str"
+        }
+    ],
+    "records": [
+        {
+            "DISTRICT_CODE": 1,
+            "DISTRICT_NAME": "Central",
+            "ADDRESS": "1718 S State St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIP": 60616,
+            "WEBSITE": "http://home.chicagopolice.org/community/districts/1st-district-central/",
+            "PHONE": "312-745-4290",
+            "FAX": "312-745-3694",
+            "TTY": "312-745-3693",
+            "X_COORDINATE": 1176569.052,
+            "Y_COORDINATE": 1891771.704,
+            "LATITUDE": 41.85837259,
+            "LONGITUDE": -87.62735617,
+            "LOCATION": "(41.8583725929, -87.627356171)"
+        },
+        {
+            "DISTRICT_CODE": 2,
+            "DISTRICT_NAME": "Wentworth",
+            "ADDRESS": "3510 S Michigan Ave",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIP": 60653,
+            "WEBSITE": "http://home.chicagopolice.org/community/districts/2nd-district-wentworth/",
+            "PHONE": "312-747-8366",
+            "FAX": "312-747-6033",
+            "TTY": "312-747-7103",
+            "X_COORDINATE": 1177341.112,
+            "Y_COORDINATE": 1879622.501,
+            "LATITUDE": 41.82497384,
+            "LONGITUDE": -87.62461283,
+            "LOCATION": "(41.8249738, -87.6246128)"
+        },
+        {
+            "DISTRICT_CODE": 3,
+            "DISTRICT_NAME": "Grand Crossing",
+            "ADDRESS": "7040 S Cottage Grove Ave",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIP": 60637,
+            "WEBSITE": "http://home.chicagopolice.org/community/districts/3rd-district-grand-crossing/",
+            "PHONE": "312-747-8201",
+            "FAX": "312-747-5396",
+            "TTY": "312-747-8219",
+            "X_COORDINATE": 1183194.327,
+            "Y_COORDINATE": 1856207.841,
+            "LATITUDE": 41.76087192,
+            "LONGITUDE": -87.60490711,
+            "LOCATION": "(41.7608719, -87.6049071)"
+        },
+        {
+            "DISTRICT_CODE": 4,
+            "DISTRICT_NAME": "South Chicago",
+            "ADDRESS": "2255 E 103rd St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIP": 60617,
+            "WEBSITE": "http://home.chicagopolice.org/community/districts/4th-district-south-chicago/",
+            "PHONE": "312-747-7573",
+            "FAX": "312-747-5369",
+            "TTY": "312-747-6069",
+            "X_COORDINATE": 1199218.552,
+            "Y_COORDINATE": 1835701.489,
+            "LATITUDE": 41.70468882,
+            "LONGITUDE": -87.54747309,
+            "LOCATION": "(41.7046888, -87.5474731)"
+        },
+        {
+            "DISTRICT_CODE": 5,
+            "DISTRICT_NAME": "Calumet",
+            "ADDRESS": "727 E 111th St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIP": 60628,
+            "WEBSITE": "http://home.chicagopolice.org/community/districts/5th-district-calumet/",
+            "PHONE": "312-747-8210",
+            "FAX": "312-747-5365",
+            "TTY": "312-747-8212",
+            "X_COORDINATE": 1186063.201,
+            "Y_COORDINATE": 1831018.622,
+            "LATITUDE": 41.69219053,
+            "LONGITUDE": -87.59555985,
+            "LOCATION": "(41.6921905, -87.5955599)"
+        },
+        {
+            "DISTRICT_CODE": 6,
+            "DISTRICT_NAME": "Gresham",
+            "ADDRESS": "7808 S Halsted St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIP": 60620,
+            "WEBSITE": "http://home.chicagopolice.org/community/districts/6th-district-gresham/",
+            "PHONE": "312-745-3617",
+            "FAX": "312-745-4696",
+            "TTY": "312-745-3614",
+            "X_COORDINATE": 1172310.445,
+            "Y_COORDINATE": 1852613.219,
+            "LATITUDE": 41.75134061,
+            "LONGITUDE": -87.64306618,
+            "LOCATION": "(41.7513406, -87.6430662)"
+        },
+        {
+            "DISTRICT_CODE": 7,
+            "DISTRICT_NAME": "Englewood",
+            "ADDRESS": "1438 W 63rd St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIP": 60636,
+            "WEBSITE": "http://home.chicagopolice.org/community/districts/7th-district-englewood/",
+            "PHONE": "312-747-8227",
+            "FAX": "312-747-5367",
+            "TTY": "312-747-8229",
+            "X_COORDINATE": 1165997.102,
+            "Y_COORDINATE": 1862408.873,
+            "LATITUDE": 41.77826079,
+            "LONGITUDE": -87.66637984,
+            "LOCATION": "(41.7782608, -87.6663798)"
+        },
+        {
+            "DISTRICT_CODE": 8,
+            "DISTRICT_NAME": "Chicago Lawn",
+            "ADDRESS": "3420 W 63rd St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIP": 60629,
+            "WEBSITE": "http://home.chicagopolice.org/community/districts/8th-district-chicago-lawn/",
+            "PHONE": "312-747-8730",
+            "FAX": "312-747-5368",
+            "TTY": "312-747-8732",
+            "X_COORDINATE": 1152700.319,
+            "Y_COORDINATE": 1862102.875,
+            "LATITUDE": 41.77751148,
+            "LONGITUDE": -87.71271481,
+            "LOCATION": "(41.7775115, -87.7127148)"
+        },
+        {
+            "DISTRICT_CODE": 9,
+            "DISTRICT_NAME": "Deering",
+            "ADDRESS": "3120 S Halsted St",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIP": 60608,
+            "WEBSITE": "http://home.chicagopolice.org/community/districts/9th-district-deering/",
+            "PHONE": "312-747-8227",
+            "FAX": "312-747-5371",
+            "TTY": "312-747-8229",
+            "X_COORDINATE": 1172198.045,
+            "Y_COORDINATE": 1883793.319,
+            "LATITUDE": 41.83705267,
+            "LONGITUDE": -87.64360095,
+            "LOCATION": "(41.8370527, -87.6436010)"
+        },
+        {
+            "DISTRICT_CODE": 10,
+            "DISTRICT_NAME": "Ogden",
+            "ADDRESS": "3315 W Ogden Ave",
+            "CITY": "Chicago",
+            "STATE": "IL",
+            "ZIP": 60623,
+            "WEBSITE": "http://home.chicagopolice.org/community/districts/10th-district-ogden/",
+            "PHONE": "312-747-7511",
+            "FAX": "312-747-5377",
+            "TTY": "312-747-7513",
+            "X_COORDINATE": 1153699.112,
+            "Y_COORDINATE": 1889283.607,
+            "LATITUDE": 41.85229046,
+            "LONGITUDE": -87.70928147,
+            "LOCATION": "(41.8522905, -87.7092815)"
+        }
+    ],
+    "missing_values": {
+        "DISTRICT_CODE": 0,
+        "DISTRICT_NAME": 0,
+        "ADDRESS": 0,
+        "CITY": 0,
+        "STATE": 0,
+        "ZIP": 0,
+        "WEBSITE": 0,
+        "PHONE": 0,
+        "FAX": 0,
+        "TTY": 0,
+        "X_COORDINATE": 0,
+        "Y_COORDINATE": 0,
+        "LATITUDE": 0,
+        "LONGITUDE": 0,
+        "LOCATION": 0
+    },
+    "missing_percentages": {
+        "DISTRICT_CODE": 0.0,
+        "DISTRICT_NAME": 0.0,
+        "ADDRESS": 0.0,
+        "CITY": 0.0,
+        "STATE": 0.0,
+        "ZIP": 0.0,
+        "WEBSITE": 0.0,
+        "PHONE": 0.0,
+        "FAX": 0.0,
+        "TTY": 0.0,
+        "X_COORDINATE": 0.0,
+        "Y_COORDINATE": 0.0,
+        "LATITUDE": 0.0,
+        "LONGITUDE": 0.0,
+        "LOCATION": 0.0
+    },
+    "description": {
+        "DISTRICT_CODE": {
+            "count": 22.0,
+            "mean": 12.181818181818182,
+            "std": 7.30711566857535,
+            "min": 1.0,
+            "25%": 6.25,
+            "50%": 11.5,
+            "75%": 17.75,
+            "max": 25.0
+        },
+        "ZIP": {
+            "count": 22.0,
+            "mean": 60627.0,
+            "std": 13.259318376505023,
+            "min": 60608.0,
+            "25%": 60616.25,
+            "50%": 60627.0,
+            "75%": 60636.75,
+            "max": 60653.0
+        },
+        "X_COORDINATE": {
+            "count": 22.0,
+            "mean": 1164497.940181818,
+            "std": 16018.128745555214,
+            "min": 1135918.447,
+            "25%": 1153774.90675,
+            "50%": 1167247.2829999998,
+            "75%": 1173436.942,
+            "max": 1199218.552
+        },
+        "Y_COORDINATE": {
+            "count": 22.0,
+            "mean": 1889285.6441818178,
+            "std": 34945.74132096009,
+            "min": 1827492.219,
+            "25%": 1862179.3745,
+            "50%": 1892797.5605,
+            "75%": 1914510.20975,
+            "max": 1944312.543
+        },
+        "LATITUDE": {
+            "count": 22.0,
+            "mean": 41.852258681818185,
+            "std": 0.09601611787539481,
+            "min": 41.68412384,
+            "25%": 41.7776988075,
+            "50%": 41.86134193,
+            "75%": 41.9215795975,
+            "max": 42.00012384
+        },
+        "LONGITUDE": {
+            "count": 22.0,
+            "mean": -87.67173348681817,
+            "std": 0.05760439755928132,
+            "min": -87.77443219,
+            "25%": -87.70903862499999,
+            "50%": -87.66082062000001,
+            "75%": -87.643199315,
+            "max": -87.54747309
+        }
+    }
+}

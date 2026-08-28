@@ -1,0 +1,107 @@
+================================================================================
+	METADATA REPORT FOR district_ps_data
+================================================================================
+
+
+
+Please NOTE that the metadata of dataset is generated before transforming it, to get idea as to what the raw dataset looks like.
+
+
+
+DATASET SHAPE : The dataset contains 22 rows and 15 cols.
+DATASET COLUMN-WISE INFO : 
+--------------------------------------------------
+<class 'pandas.DataFrame'>
+RangeIndex: 22 entries, 0 to 21
+Data columns (total 15 columns):
+ #   Column         Non-Null Count  Dtype  
+---  ------         --------------  -----  
+ 0   DISTRICT_CODE  22 non-null     int64  
+ 1   DISTRICT_NAME  22 non-null     str    
+ 2   ADDRESS        22 non-null     str    
+ 3   CITY           22 non-null     str    
+ 4   STATE          22 non-null     str    
+ 5   ZIP            22 non-null     int64  
+ 6   WEBSITE        22 non-null     str    
+ 7   PHONE          22 non-null     str    
+ 8   FAX            22 non-null     str    
+ 9   TTY            22 non-null     str    
+ 10  X_COORDINATE   22 non-null     float64
+ 11  Y_COORDINATE   22 non-null     float64
+ 12  LATITUDE       22 non-null     float64
+ 13  LONGITUDE      22 non-null     float64
+ 14  LOCATION       22 non-null     str    
+dtypes: float64(4), int64(2), str(9)
+memory usage: 2.7 KB
+
+--------------------------------------------------
+
+DATASET RECORD PEEK - FIRST 10 RECORDS
+--------------------------------------------------
+   DISTRICT_CODE   DISTRICT_NAME                   ADDRESS     CITY STATE    ZIP                                                                         WEBSITE         PHONE           FAX           TTY  X_COORDINATE  Y_COORDINATE   LATITUDE  LONGITUDE                        LOCATION
+0              1         Central           1718 S State St  Chicago    IL  60616         http://home.chicagopolice.org/community/districts/1st-district-central/  312-745-4290  312-745-3694  312-745-3693   1176569.052   1891771.704  41.858373 -87.627356  (41.8583725929, -87.627356171)
+1              2       Wentworth       3510 S Michigan Ave  Chicago    IL  60653       http://home.chicagopolice.org/community/districts/2nd-district-wentworth/  312-747-8366  312-747-6033  312-747-7103   1177341.112   1879622.501  41.824974 -87.624613       (41.8249738, -87.6246128)
+2              3  Grand Crossing  7040 S Cottage Grove Ave  Chicago    IL  60637  http://home.chicagopolice.org/community/districts/3rd-district-grand-crossing/  312-747-8201  312-747-5396  312-747-8219   1183194.327   1856207.841  41.760872 -87.604907       (41.7608719, -87.6049071)
+3              4   South Chicago           2255 E 103rd St  Chicago    IL  60617   http://home.chicagopolice.org/community/districts/4th-district-south-chicago/  312-747-7573  312-747-5369  312-747-6069   1199218.552   1835701.489  41.704689 -87.547473       (41.7046888, -87.5474731)
+4              5         Calumet            727 E 111th St  Chicago    IL  60628         http://home.chicagopolice.org/community/districts/5th-district-calumet/  312-747-8210  312-747-5365  312-747-8212   1186063.201   1831018.622  41.692191 -87.595560       (41.6921905, -87.5955599)
+5              6         Gresham         7808 S Halsted St  Chicago    IL  60620         http://home.chicagopolice.org/community/districts/6th-district-gresham/  312-745-3617  312-745-4696  312-745-3614   1172310.445   1852613.219  41.751341 -87.643066       (41.7513406, -87.6430662)
+6              7       Englewood            1438 W 63rd St  Chicago    IL  60636       http://home.chicagopolice.org/community/districts/7th-district-englewood/  312-747-8227  312-747-5367  312-747-8229   1165997.102   1862408.873  41.778261 -87.666380       (41.7782608, -87.6663798)
+7              8    Chicago Lawn            3420 W 63rd St  Chicago    IL  60629    http://home.chicagopolice.org/community/districts/8th-district-chicago-lawn/  312-747-8730  312-747-5368  312-747-8732   1152700.319   1862102.875  41.777511 -87.712715       (41.7775115, -87.7127148)
+8              9         Deering         3120 S Halsted St  Chicago    IL  60608         http://home.chicagopolice.org/community/districts/9th-district-deering/  312-747-8227  312-747-5371  312-747-8229   1172198.045   1883793.319  41.837053 -87.643601       (41.8370527, -87.6436010)
+9             10           Ogden          3315 W Ogden Ave  Chicago    IL  60623          http://home.chicagopolice.org/community/districts/10th-district-ogden/  312-747-7511  312-747-5377  312-747-7513   1153699.112   1889283.607  41.852290 -87.709281       (41.8522905, -87.7092815)
+--------------------------------------------------
+
+DATASET MISSING VALUES - PER COLUMN
+--------------------------------------------------
+DISTRICT_CODE    0
+DISTRICT_NAME    0
+ADDRESS          0
+CITY             0
+STATE            0
+ZIP              0
+WEBSITE          0
+PHONE            0
+FAX              0
+TTY              0
+X_COORDINATE     0
+Y_COORDINATE     0
+LATITUDE         0
+LONGITUDE        0
+LOCATION         0
+--------------------------------------------------
+
+DATASET MISSING VALUES PERCENT - PER COLUMN
+--------------------------------------------------
+DISTRICT_CODE    0.0
+DISTRICT_NAME    0.0
+ADDRESS          0.0
+CITY             0.0
+STATE            0.0
+ZIP              0.0
+WEBSITE          0.0
+PHONE            0.0
+FAX              0.0
+TTY              0.0
+X_COORDINATE     0.0
+Y_COORDINATE     0.0
+LATITUDE         0.0
+LONGITUDE        0.0
+LOCATION         0.0
+--------------------------------------------------
+
+DATASET DESCRIPTION - FOR DETECTING OUTLIERS
+--------------------------------------------------
+       DISTRICT_CODE           ZIP  X_COORDINATE  Y_COORDINATE   LATITUDE  LONGITUDE
+count      22.000000     22.000000  2.200000e+01  2.200000e+01  22.000000  22.000000
+mean       12.181818  60627.000000  1.164498e+06  1.889286e+06  41.852259 -87.671733
+std         7.307116     13.259318  1.601813e+04  3.494574e+04   0.096016   0.057604
+min         1.000000  60608.000000  1.135918e+06  1.827492e+06  41.684124 -87.774432
+25%         6.250000  60616.250000  1.153775e+06  1.862179e+06  41.777699 -87.709039
+50%        11.500000  60627.000000  1.167247e+06  1.892798e+06  41.861342 -87.660821
+75%        17.750000  60636.750000  1.173437e+06  1.914510e+06  41.921580 -87.643199
+max        25.000000  60653.000000  1.199219e+06  1.944313e+06  42.000124 -87.547473
+--------------------------------------------------
+
+
+
+================================================================================

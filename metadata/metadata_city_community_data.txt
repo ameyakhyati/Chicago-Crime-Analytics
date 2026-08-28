@@ -1,0 +1,83 @@
+================================================================================
+	METADATA REPORT FOR city_community_data
+================================================================================
+
+
+
+Please NOTE that the metadata of dataset is generated before transforming it, to get idea as to what the raw dataset looks like.
+
+
+
+DATASET SHAPE : The dataset contains 77 rows and 7 cols.
+DATASET COLUMN-WISE INFO : 
+--------------------------------------------------
+<class 'pandas.DataFrame'>
+RangeIndex: 77 entries, 0 to 76
+Data columns (total 7 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   community_code    77 non-null     int64  
+ 1   community_name    77 non-null     str    
+ 2   population        77 non-null     int64  
+ 3   area_sqmile       77 non-null     float64
+ 4   area_sqkm         77 non-null     float64
+ 5   density_per_sqmi  77 non-null     float64
+ 6   density_per_sqkm  77 non-null     float64
+dtypes: float64(4), int64(2), str(1)
+memory usage: 4.3 KB
+
+--------------------------------------------------
+
+DATASET RECORD PEEK - FIRST 10 RECORDS
+--------------------------------------------------
+   community_code   community_name  population  area_sqmile  area_sqkm  density_per_sqmi  density_per_sqkm
+0               1      Rogers Park       55062         1.84       4.77          29925.00          11554.11
+1               2       West Ridge       72139         3.06       7.93          23575.82           9093.42
+2               3           Uptown       56388         1.89       4.89          29834.39          11517.49
+3               4   Lincoln Square       40492         1.55       4.02          26124.52          10086.00
+4               5     North Center       35706         1.45       3.76          24624.83           9508.35
+5               6         Lakeview       95884         3.02       7.82          31745.70          12256.25
+6               7     Lincoln Park       67565         3.11       8.05          21726.69           8389.56
+7               8  Near North Side      105617         3.36       8.71          31432.44          12133.84
+8               9      Edison Park       11123         1.26       3.26           8828.57           3408.28
+9              10     Norwood Park       39046         4.39      11.37           8895.22           3433.74
+--------------------------------------------------
+
+DATASET MISSING VALUES - PER COLUMN
+--------------------------------------------------
+community_code      0
+community_name      0
+population          0
+area_sqmile         0
+area_sqkm           0
+density_per_sqmi    0
+density_per_sqkm    0
+--------------------------------------------------
+
+DATASET MISSING VALUES PERCENT - PER COLUMN
+--------------------------------------------------
+community_code      0.0
+community_name      0.0
+population          0.0
+area_sqmile         0.0
+area_sqkm           0.0
+density_per_sqmi    0.0
+density_per_sqkm    0.0
+--------------------------------------------------
+
+DATASET DESCRIPTION - FOR DETECTING OUTLIERS
+--------------------------------------------------
+       community_code     population  area_sqmile  area_sqkm  density_per_sqmi  density_per_sqkm
+count       77.000000      77.000000    77.000000  77.000000         77.000000         77.000000
+mean        39.000000   36613.194805     2.988182   7.740000      13399.659481       5173.032987
+std         22.371857   23507.104073     1.992924   5.162256       7723.919745       2981.892564
+min          1.000000    2876.000000     0.560000   1.450000        719.150000        277.670000
+25%         20.000000   18757.000000     1.870000   4.840000       7747.440000       2991.110000
+50%         39.000000   30114.000000     3.020000   7.820000      12083.450000       4665.610000
+75%         58.000000   51036.000000     3.440000   8.910000      18392.160000       7101.430000
+max         77.000000  105617.000000    16.500000  42.740000      31745.700000      12256.250000
+--------------------------------------------------
+
+
+
+================================================================================

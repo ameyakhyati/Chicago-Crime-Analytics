@@ -1,0 +1,221 @@
+{
+    "dataset_name": "city_community_data",
+    "rows": 77,
+    "columns": 7,
+    "column_info": [
+        {
+            "index": 0,
+            "name": "community_code",
+            "non_null": 77,
+            "dtype": "int64"
+        },
+        {
+            "index": 1,
+            "name": "community_name",
+            "non_null": 77,
+            "dtype": "str"
+        },
+        {
+            "index": 2,
+            "name": "population",
+            "non_null": 77,
+            "dtype": "int64"
+        },
+        {
+            "index": 3,
+            "name": "area_sqmile",
+            "non_null": 77,
+            "dtype": "float64"
+        },
+        {
+            "index": 4,
+            "name": "area_sqkm",
+            "non_null": 77,
+            "dtype": "float64"
+        },
+        {
+            "index": 5,
+            "name": "density_per_sqmi",
+            "non_null": 77,
+            "dtype": "float64"
+        },
+        {
+            "index": 6,
+            "name": "density_per_sqkm",
+            "non_null": 77,
+            "dtype": "float64"
+        }
+    ],
+    "records": [
+        {
+            "community_code": 1,
+            "community_name": "Rogers Park",
+            "population": 55062,
+            "area_sqmile": 1.84,
+            "area_sqkm": 4.77,
+            "density_per_sqmi": 29925.0,
+            "density_per_sqkm": 11554.11
+        },
+        {
+            "community_code": 2,
+            "community_name": "West Ridge",
+            "population": 72139,
+            "area_sqmile": 3.06,
+            "area_sqkm": 7.93,
+            "density_per_sqmi": 23575.82,
+            "density_per_sqkm": 9093.42
+        },
+        {
+            "community_code": 3,
+            "community_name": "Uptown",
+            "population": 56388,
+            "area_sqmile": 1.89,
+            "area_sqkm": 4.89,
+            "density_per_sqmi": 29834.39,
+            "density_per_sqkm": 11517.49
+        },
+        {
+            "community_code": 4,
+            "community_name": "Lincoln Square",
+            "population": 40492,
+            "area_sqmile": 1.55,
+            "area_sqkm": 4.02,
+            "density_per_sqmi": 26124.52,
+            "density_per_sqkm": 10086.0
+        },
+        {
+            "community_code": 5,
+            "community_name": "North Center",
+            "population": 35706,
+            "area_sqmile": 1.45,
+            "area_sqkm": 3.76,
+            "density_per_sqmi": 24624.83,
+            "density_per_sqkm": 9508.35
+        },
+        {
+            "community_code": 6,
+            "community_name": "Lakeview",
+            "population": 95884,
+            "area_sqmile": 3.02,
+            "area_sqkm": 7.82,
+            "density_per_sqmi": 31745.7,
+            "density_per_sqkm": 12256.25
+        },
+        {
+            "community_code": 7,
+            "community_name": "Lincoln Park",
+            "population": 67565,
+            "area_sqmile": 3.11,
+            "area_sqkm": 8.05,
+            "density_per_sqmi": 21726.69,
+            "density_per_sqkm": 8389.56
+        },
+        {
+            "community_code": 8,
+            "community_name": "Near North Side",
+            "population": 105617,
+            "area_sqmile": 3.36,
+            "area_sqkm": 8.71,
+            "density_per_sqmi": 31432.44,
+            "density_per_sqkm": 12133.84
+        },
+        {
+            "community_code": 9,
+            "community_name": "Edison Park",
+            "population": 11123,
+            "area_sqmile": 1.26,
+            "area_sqkm": 3.26,
+            "density_per_sqmi": 8828.57,
+            "density_per_sqkm": 3408.28
+        },
+        {
+            "community_code": 10,
+            "community_name": "Norwood Park",
+            "population": 39046,
+            "area_sqmile": 4.39,
+            "area_sqkm": 11.37,
+            "density_per_sqmi": 8895.22,
+            "density_per_sqkm": 3433.74
+        }
+    ],
+    "missing_values": {
+        "community_code": 0,
+        "community_name": 0,
+        "population": 0,
+        "area_sqmile": 0,
+        "area_sqkm": 0,
+        "density_per_sqmi": 0,
+        "density_per_sqkm": 0
+    },
+    "missing_percentages": {
+        "community_code": 0.0,
+        "community_name": 0.0,
+        "population": 0.0,
+        "area_sqmile": 0.0,
+        "area_sqkm": 0.0,
+        "density_per_sqmi": 0.0,
+        "density_per_sqkm": 0.0
+    },
+    "description": {
+        "community_code": {
+            "count": 77.0,
+            "mean": 39.0,
+            "std": 22.371857321197094,
+            "min": 1.0,
+            "25%": 20.0,
+            "50%": 39.0,
+            "75%": 58.0,
+            "max": 77.0
+        },
+        "population": {
+            "count": 77.0,
+            "mean": 36613.194805194806,
+            "std": 23507.104072934253,
+            "min": 2876.0,
+            "25%": 18757.0,
+            "50%": 30114.0,
+            "75%": 51036.0,
+            "max": 105617.0
+        },
+        "area_sqmile": {
+            "count": 77.0,
+            "mean": 2.9881818181818183,
+            "std": 1.992924145751088,
+            "min": 0.56,
+            "25%": 1.87,
+            "50%": 3.02,
+            "75%": 3.44,
+            "max": 16.5
+        },
+        "area_sqkm": {
+            "count": 77.0,
+            "mean": 7.74,
+            "std": 5.162255983783181,
+            "min": 1.45,
+            "25%": 4.84,
+            "50%": 7.82,
+            "75%": 8.91,
+            "max": 42.74
+        },
+        "density_per_sqmi": {
+            "count": 77.0,
+            "mean": 13399.65948051948,
+            "std": 7723.919745259885,
+            "min": 719.15,
+            "25%": 7747.44,
+            "50%": 12083.45,
+            "75%": 18392.16,
+            "max": 31745.7
+        },
+        "density_per_sqkm": {
+            "count": 77.0,
+            "mean": 5173.032987012986,
+            "std": 2981.89256441939,
+            "min": 277.67,
+            "25%": 2991.11,
+            "50%": 4665.61,
+            "75%": 7101.43,
+            "max": 12256.25
+        }
+    }
+}

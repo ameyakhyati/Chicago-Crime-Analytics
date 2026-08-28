@@ -1,0 +1,147 @@
+{
+    "dataset_name": "police_beat_data",
+    "rows": 198,
+    "columns": 4,
+    "column_info": [
+        {
+            "index": 0,
+            "name": "DISTRICT",
+            "non_null": 198,
+            "dtype": "int64"
+        },
+        {
+            "index": 1,
+            "name": "SECTOR",
+            "non_null": 198,
+            "dtype": "int64"
+        },
+        {
+            "index": 2,
+            "name": "BEAT",
+            "non_null": 198,
+            "dtype": "int64"
+        },
+        {
+            "index": 3,
+            "name": "BEAT_NUM",
+            "non_null": 198,
+            "dtype": "int64"
+        }
+    ],
+    "records": [
+        {
+            "DISTRICT": 1,
+            "SECTOR": 1,
+            "BEAT": 1,
+            "BEAT_NUM": 111
+        },
+        {
+            "DISTRICT": 1,
+            "SECTOR": 1,
+            "BEAT": 2,
+            "BEAT_NUM": 112
+        },
+        {
+            "DISTRICT": 1,
+            "SECTOR": 1,
+            "BEAT": 3,
+            "BEAT_NUM": 113
+        },
+        {
+            "DISTRICT": 1,
+            "SECTOR": 2,
+            "BEAT": 1,
+            "BEAT_NUM": 121
+        },
+        {
+            "DISTRICT": 1,
+            "SECTOR": 2,
+            "BEAT": 2,
+            "BEAT_NUM": 122
+        },
+        {
+            "DISTRICT": 1,
+            "SECTOR": 2,
+            "BEAT": 3,
+            "BEAT_NUM": 123
+        },
+        {
+            "DISTRICT": 1,
+            "SECTOR": 3,
+            "BEAT": 1,
+            "BEAT_NUM": 131
+        },
+        {
+            "DISTRICT": 1,
+            "SECTOR": 3,
+            "BEAT": 2,
+            "BEAT_NUM": 132
+        },
+        {
+            "DISTRICT": 1,
+            "SECTOR": 3,
+            "BEAT": 3,
+            "BEAT_NUM": 133
+        },
+        {
+            "DISTRICT": 2,
+            "SECTOR": 1,
+            "BEAT": 1,
+            "BEAT_NUM": 211
+        }
+    ],
+    "missing_values": {
+        "DISTRICT": 0,
+        "SECTOR": 0,
+        "BEAT": 0,
+        "BEAT_NUM": 0
+    },
+    "missing_percentages": {
+        "DISTRICT": 0.0,
+        "SECTOR": 0.0,
+        "BEAT": 0.0,
+        "BEAT_NUM": 0.0
+    },
+    "description": {
+        "DISTRICT": {
+            "count": 198.0,
+            "mean": 12.181818181818182,
+            "std": 7.15721018212682,
+            "min": 1.0,
+            "25%": 6.0,
+            "50%": 11.5,
+            "75%": 18.0,
+            "max": 25.0
+        },
+        "SECTOR": {
+            "count": 198.0,
+            "mean": 2.0,
+            "std": 0.8185662840731469,
+            "min": 1.0,
+            "25%": 1.0,
+            "50%": 2.0,
+            "75%": 3.0,
+            "max": 3.0
+        },
+        "BEAT": {
+            "count": 198.0,
+            "mean": 2.0,
+            "std": 0.8185662840731469,
+            "min": 1.0,
+            "25%": 1.0,
+            "50%": 2.0,
+            "75%": 3.0,
+            "max": 3.0
+        },
+        "BEAT_NUM": {
+            "count": 198.0,
+            "mean": 1240.1818181818182,
+            "std": 715.7682942393451,
+            "min": 111.0,
+            "25%": 622.25,
+            "50%": 1172.0,
+            "75%": 1821.75,
+            "max": 2533.0
+        }
+    }
+}

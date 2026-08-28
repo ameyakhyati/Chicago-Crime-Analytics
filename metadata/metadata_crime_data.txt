@@ -1,0 +1,128 @@
+================================================================================
+	METADATA REPORT FOR crime_data
+================================================================================
+
+
+
+Please NOTE that the metadata of dataset is generated before transforming it, to get idea as to what the raw dataset looks like.
+
+
+
+DATASET SHAPE : The dataset contains 2000 rows and 22 cols.
+DATASET COLUMN-WISE INFO : 
+--------------------------------------------------
+<class 'pandas.DataFrame'>
+RangeIndex: 2000 entries, 0 to 1999
+Data columns (total 22 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   id              2000 non-null   int64  
+ 1   case_number     2000 non-null   str    
+ 2   date            2000 non-null   str    
+ 3   block           2000 non-null   str    
+ 4   iucr_code       2000 non-null   int64  
+ 5   primary_type    2000 non-null   str    
+ 6   description     2000 non-null   str    
+ 7   location_desc   1906 non-null   str    
+ 8   arrest          2000 non-null   bool   
+ 9   domestic        2000 non-null   bool   
+ 10  beat_num        2000 non-null   int64  
+ 11  district_code   2000 non-null   int64  
+ 12  ward_no         1963 non-null   float64
+ 13  community_code  1964 non-null   float64
+ 14  fbi_code        2000 non-null   str    
+ 15  x_coordinate    1933 non-null   float64
+ 16  y_coordinate    1936 non-null   float64
+ 17  year            2000 non-null   int64  
+ 18  date_of_update  2000 non-null   str    
+ 19  latitude        1927 non-null   float64
+ 20  longitude       1936 non-null   float64
+ 21  location        1926 non-null   str    
+dtypes: bool(2), float64(6), int64(5), str(9)
+memory usage: 316.5 KB
+
+--------------------------------------------------
+
+DATASET RECORD PEEK - FIRST 10 RECORDS
+--------------------------------------------------
+         id case_number              date                    block  iucr_code            primary_type                  description              location_desc  arrest  domestic  beat_num  district_code  ward_no  community_code fbi_code  x_coordinate  y_coordinate  year    date_of_update   latitude  longitude                     location
+0  10000000    SS442871  03/04/2022 07:47        78XX N PULASKI RD        740                   THEFT              THEFT OVER $500                 RESTAURANT   False     False       212              8     15.0            18.0       15     1151489.0     1867491.0  2022  03/13/2022 07:47  41.716082 -87.673423  (41.71608165, -87.67342345)
+1  10000001    WW348136  06/27/2015 19:34        99XX E HALSTED ST       5003  PUBLIC PEACE VIOLATION           DISORDERLY CONDUCT                  RESIDENCE   False     False       711             14      6.0            71.0       07     1185228.0     1853665.0  2015  07/01/2015 19:34  41.948512 -87.626794  (41.94851207, -87.62679436)
+2  10000002    GG525832  03/31/2021 10:20       51XX W ASHLAND AVE        910               VANDALISM              CRIMINAL DAMAGE              BAR OR TAVERN   False      True       811              2     15.0             5.0       14     1185895.0     1867010.0  2021  04/27/2021 10:20  41.963941 -87.629846  (41.96394084, -87.62984598)
+3  10000003    NC685131  04/26/2019 13:29  1XX E COTTAGE GROVE AVE        650     MOTOR VEHICLE THEFT                   AUTOMOBILE              BAR OR TAVERN   False     False       221              9     36.0             2.0       13     1155577.0     1884781.0  2019  05/13/2019 13:29  41.770048 -87.607711  (41.77004756, -87.60771146)
+4  10000004    YT673638  09/07/2017 05:56        78XX W PULASKI RD        560                 ASSAULT                       SIMPLE   SCHOOL, PUBLIC, BUILDING   False     False       122              3      6.0            63.0       15     1197342.0     1863210.0  2017  09/26/2017 05:56  41.727728 -87.602075  (41.72772815, -87.60207475)
+5  10000005    CR348066  07/26/2017 06:02        61XX W PULASKI RD        560                 ASSAULT                       SIMPLE                GAS STATION    True     False       611             11      5.0            66.0       07     1194119.0     1896096.0  2017  08/23/2017 06:02  41.851770 -87.582994  (41.85177018, -87.58299423)
+6  10000006    XE039726  11/05/2015 14:55         62XX S NORTH AVE        486                 BATTERY  DOMESTIC BATTERY AGGRAVATED  HOSPITAL BUILDING/GROUNDS   False      True      1811             19      7.0             7.0       14     1192434.0     1863304.0  2015  12/03/2015 14:55  41.980699 -87.522090  (41.98069888, -87.52208991)
+7  10000007    QK559272  07/08/2018 05:37          73XX S STATE ST       1020       WEAPONS VIOLATION     UNLAWFUL POSS OF HANDGUN               RETAIL STORE   False      True       121             18     34.0            21.0      04A     1183760.0           NaN  2018  07/24/2018 05:37  41.745747 -87.621489  (41.74574749, -87.62148947)
+8  10000008    YD115267  01/11/2021 10:16        2XX E WESTERN AVE        650     MOTOR VEHICLE THEFT                   AUTOMOBILE                 RESTAURANT   False     False       912             12      5.0            32.0       15     1199192.0     1914567.0  2021  01/16/2021 10:16  41.852965 -87.709245  (41.85296539, -87.70924486)
+9  10000009    DI878822  09/28/2018 19:40       48XX S DIVISION ST        910               VANDALISM              CRIMINAL DAMAGE  HOSPITAL BUILDING/GROUNDS   False     False      1911              6     48.0            57.0       02     1184550.0     1861924.0  2018  10/07/2018 19:40  41.723562 -87.516485  (41.72356216, -87.51648472)
+--------------------------------------------------
+
+DATASET MISSING VALUES - PER COLUMN
+--------------------------------------------------
+id                 0
+case_number        0
+date               0
+block              0
+iucr_code          0
+primary_type       0
+description        0
+location_desc     94
+arrest             0
+domestic           0
+beat_num           0
+district_code      0
+ward_no           37
+community_code    36
+fbi_code           0
+x_coordinate      67
+y_coordinate      64
+year               0
+date_of_update     0
+latitude          73
+longitude         64
+location          74
+--------------------------------------------------
+
+DATASET MISSING VALUES PERCENT - PER COLUMN
+--------------------------------------------------
+id                0.00
+case_number       0.00
+date              0.00
+block             0.00
+iucr_code         0.00
+primary_type      0.00
+description       0.00
+location_desc     4.70
+arrest            0.00
+domestic          0.00
+beat_num          0.00
+district_code     0.00
+ward_no           1.85
+community_code    1.80
+fbi_code          0.00
+x_coordinate      3.35
+y_coordinate      3.20
+year              0.00
+date_of_update    0.00
+latitude          3.65
+longitude         3.20
+location          3.70
+--------------------------------------------------
+
+DATASET DESCRIPTION - FOR DETECTING OUTLIERS
+--------------------------------------------------
+                 id    iucr_code     beat_num  district_code      ward_no  community_code  x_coordinate  y_coordinate        year     latitude    longitude
+count  2.000000e+03  2000.000000  2000.000000    2000.000000  1963.000000     1964.000000  1.933000e+03  1.936000e+03  2000.00000  1927.000000  1936.000000
+mean   1.000100e+07   903.763500   886.139000      12.280000    25.280183       39.269348  1.174954e+06  1.889624e+06  2018.98900    41.839075   -87.649673
+std    5.774946e+02   915.541854   659.067299       7.172888    14.379094       22.023705  1.451501e+04  2.298447e+04     2.58674     0.085953     0.087255
+min    1.000000e+07   110.000000   111.000000       1.000000     1.000000        1.000000  1.150010e+06  1.850019e+06  2015.00000    41.690103   -87.799807
+25%    1.000050e+07   486.000000   312.000000       6.000000    12.000000       21.000000  1.162294e+06  1.869679e+06  2017.00000    41.763987   -87.725005
+50%    1.000100e+07   650.000000   712.000000      12.000000    26.000000       40.000000  1.174984e+06  1.890235e+06  2019.00000    41.840612   -87.651374
+75%    1.000150e+07   850.000000  1221.000000      18.000000    37.000000       57.250000  1.187397e+06  1.909452e+06  2021.00000    41.914729   -87.573711
+max    1.000200e+07  5003.000000  2511.000000      25.000000    50.000000       77.000000  1.199992e+06  1.929976e+06  2023.00000    41.989603   -87.500281
+--------------------------------------------------
+
+
+
+================================================================================

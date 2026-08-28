@@ -1,0 +1,74 @@
+================================================================================
+	METADATA REPORT FOR iucr_data
+================================================================================
+
+
+
+Please NOTE that the metadata of dataset is generated before transforming it, to get idea as to what the raw dataset looks like.
+
+
+
+DATASET SHAPE : The dataset contains 117 rows and 4 cols.
+DATASET COLUMN-WISE INFO : 
+--------------------------------------------------
+<class 'pandas.DataFrame'>
+RangeIndex: 117 entries, 0 to 116
+Data columns (total 4 columns):
+ #   Column        Non-Null Count  Dtype
+---  ------        --------------  -----
+ 0   IUCR_CODE     117 non-null    int64
+ 1   PRIMARY_TYPE  117 non-null    str  
+ 2   DESCRIPTION   117 non-null    str  
+ 3   INDEX_CODE    117 non-null    str  
+dtypes: int64(1), str(3)
+memory usage: 3.8 KB
+
+--------------------------------------------------
+
+DATASET RECORD PEEK - FIRST 10 RECORDS
+--------------------------------------------------
+   IUCR_CODE         PRIMARY_TYPE                    DESCRIPTION INDEX_CODE
+0        110             HOMICIDE            FIRST DEGREE MURDER          I
+1        130             HOMICIDE           SECOND DEGREE MURDER          I
+2        141             HOMICIDE       INVOLUNTARY MANSLAUGHTER          I
+3        142             HOMICIDE              RECKLESS HOMICIDE          I
+4        261  CRIM SEXUAL ASSAULT            AGGRAVATED: HANDGUN          I
+5        262  CRIM SEXUAL ASSAULT      AGGRAVATED: OTHER FIREARM          I
+6        263  CRIM SEXUAL ASSAULT    AGGRAVATED: KNIFE/CUT INSTR          I
+7        264  CRIM SEXUAL ASSAULT  AGGRAVATED: OTHER DANG WEAPON          I
+8        265  CRIM SEXUAL ASSAULT              AGGRAVATED: OTHER          I
+9        266  CRIM SEXUAL ASSAULT                      PREDATORY          I
+--------------------------------------------------
+
+DATASET MISSING VALUES - PER COLUMN
+--------------------------------------------------
+IUCR_CODE       0
+PRIMARY_TYPE    0
+DESCRIPTION     0
+INDEX_CODE      0
+--------------------------------------------------
+
+DATASET MISSING VALUES PERCENT - PER COLUMN
+--------------------------------------------------
+IUCR_CODE       0.0
+PRIMARY_TYPE    0.0
+DESCRIPTION     0.0
+INDEX_CODE      0.0
+--------------------------------------------------
+
+DATASET DESCRIPTION - FOR DETECTING OUTLIERS
+--------------------------------------------------
+         IUCR_CODE
+count   117.000000
+mean   1046.811966
+std    1226.731169
+min     110.000000
+25%     470.000000
+50%     670.000000
+75%    1090.000000
+max    5017.000000
+--------------------------------------------------
+
+
+
+================================================================================

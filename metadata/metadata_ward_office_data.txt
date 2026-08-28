@@ -1,0 +1,110 @@
+================================================================================
+	METADATA REPORT FOR ward_office_data
+================================================================================
+
+
+
+Please NOTE that the metadata of dataset is generated before transforming it, to get idea as to what the raw dataset looks like.
+
+
+
+DATASET SHAPE : The dataset contains 50 rows and 16 cols.
+DATASET COLUMN-WISE INFO : 
+--------------------------------------------------
+<class 'pandas.DataFrame'>
+RangeIndex: 50 entries, 0 to 49
+Data columns (total 16 columns):
+ #   Column             Non-Null Count  Dtype
+---  ------             --------------  -----
+ 0   WARD_NO            50 non-null     int64
+ 1   ALDERMAN           50 non-null     str  
+ 2   ADDRESS            50 non-null     str  
+ 3   CITY               50 non-null     str  
+ 4   STATE              50 non-null     str  
+ 5   ZIPCODE            50 non-null     int64
+ 6   WARD_PHONE         50 non-null     str  
+ 7   WARD_FAX           50 non-null     str  
+ 8   EMAIL              50 non-null     str  
+ 9   WEBSITE            50 non-null     str  
+ 10  LOCATION           50 non-null     str  
+ 11  CITY_HALL_ADDRESS  50 non-null     str  
+ 12  CITY_HALL_CITY     50 non-null     str  
+ 13  CITY_HALL_STATE    50 non-null     str  
+ 14  CITY_HALL_ZIPCODE  50 non-null     int64
+ 15  CITY_HALL_PHONE    50 non-null     str  
+dtypes: int64(3), str(13)
+memory usage: 6.4 KB
+
+--------------------------------------------------
+
+DATASET RECORD PEEK - FIRST 10 RECORDS
+--------------------------------------------------
+   WARD_NO            ALDERMAN                      ADDRESS     CITY STATE  ZIPCODE      WARD_PHONE        WARD_FAX                     EMAIL                      WEBSITE                LOCATION                              CITY_HALL_ADDRESS CITY_HALL_CITY CITY_HALL_STATE  CITY_HALL_ZIPCODE CITY_HALL_PHONE
+0        1     La Spata Daniel  1958 North Milwaukee Avenue  Chicago    IL    60647  (872) 206-2685  (312) 448-8829       info@the1stward.com  https://www.the1stward.com/  (41.917215, -87.68799)  121 North LaSalle Street, Room 200, Office 13        Chicago              IL              60602  (312) 744-3063
+1        2       Hopkins Brian           1400 N Ashland Ave  Chicago    IL    60622  (312) 643-2299  (312) 643-2307  ward02@cityofchicago.org      https://www.ward02.com/  (41.909812, -87.66799)  121 North LaSalle Street, Room 200, Office 28        Chicago              IL              60602  (312) 744-6836
+2        3            King Pat              5046 S State St  Chicago    IL    60609  (773) 373-9273  (773) 373-6700  ward03@cityofchicago.org      https://www.ward03.com/  (41.801912, -87.62799)  121 North LaSalle Street, Room 200, Office 20        Chicago              IL              60602  (312) 744-8028
+3        4  Dowell Sophia King                435 E 35th St  Chicago    IL    60616  (773) 536-8103  (773) 536-7296  ward04@cityofchicago.org      https://www.ward04.com/  (41.830812, -87.61799)  121 North LaSalle Street, Room 200, Office 22        Chicago              IL              60602  (312) 744-2690
+4        5     Hairston Leslie               2325 E 71st St  Chicago    IL    60649  (773) 324-5555  (773) 324-1585  ward05@cityofchicago.org      https://www.ward05.com/  (41.765812, -87.56799)  121 North LaSalle Street, Room 200, Office 19        Chicago              IL              60602  (312) 744-6832
+5        6     Sawyer Roderick           7901 S Loomis Blvd  Chicago    IL    60620  (773) 635-0006  (773) 635-0007  ward06@cityofchicago.org      https://www.ward06.com/  (41.751812, -87.65799)  121 North LaSalle Street, Room 200, Office 31        Chicago              IL              60602  (312) 744-6839
+6        7    Mitchell Gregory               2258 E 75th St  Chicago    IL    60649  (773) 731-7777  (773) 731-7770  ward07@cityofchicago.org      https://www.ward07.com/  (41.759912, -87.56799)  121 North LaSalle Street, Room 200, Office 21        Chicago              IL              60602  (312) 744-6833
+7        8     Harris Michelle         8539 S Cottage Grove  Chicago    IL    60619  (773) 933-9273  (773) 933-9279  ward08@cityofchicago.org      https://www.ward08.com/  (41.739812, -87.60799)  121 North LaSalle Street, Room 200, Office 25        Chicago              IL              60602  (312) 744-6834
+8        9       Beale Anthony                34 E 112th Pl  Chicago    IL    60628  (773) 785-1100  (773) 785-1101  ward09@cityofchicago.org      https://www.ward09.com/  (41.692812, -87.60799)  121 North LaSalle Street, Room 200, Office 24        Chicago              IL              60602  (312) 744-6835
+9       10        O'Shea Susan               2458 E 75th St  Chicago    IL    60649  (773) 731-0096  (773) 731-0098  ward10@cityofchicago.org      https://www.ward10.com/  (41.757812, -87.55799)  121 North LaSalle Street, Room 200, Office 30        Chicago              IL              60602  (312) 744-6838
+--------------------------------------------------
+
+DATASET MISSING VALUES - PER COLUMN
+--------------------------------------------------
+WARD_NO              0
+ALDERMAN             0
+ADDRESS              0
+CITY                 0
+STATE                0
+ZIPCODE              0
+WARD_PHONE           0
+WARD_FAX             0
+EMAIL                0
+WEBSITE              0
+LOCATION             0
+CITY_HALL_ADDRESS    0
+CITY_HALL_CITY       0
+CITY_HALL_STATE      0
+CITY_HALL_ZIPCODE    0
+CITY_HALL_PHONE      0
+--------------------------------------------------
+
+DATASET MISSING VALUES PERCENT - PER COLUMN
+--------------------------------------------------
+WARD_NO              0.0
+ALDERMAN             0.0
+ADDRESS              0.0
+CITY                 0.0
+STATE                0.0
+ZIPCODE              0.0
+WARD_PHONE           0.0
+WARD_FAX             0.0
+EMAIL                0.0
+WEBSITE              0.0
+LOCATION             0.0
+CITY_HALL_ADDRESS    0.0
+CITY_HALL_CITY       0.0
+CITY_HALL_STATE      0.0
+CITY_HALL_ZIPCODE    0.0
+CITY_HALL_PHONE      0.0
+--------------------------------------------------
+
+DATASET DESCRIPTION - FOR DETECTING OUTLIERS
+--------------------------------------------------
+        WARD_NO       ZIPCODE  CITY_HALL_ZIPCODE
+count  50.00000     50.000000               50.0
+mean   25.50000  60621.440000            60602.0
+std    14.57738     14.189907                0.0
+min     1.00000  60601.000000            60602.0
+25%    13.25000  60611.250000            60602.0
+50%    25.50000  60619.500000            60602.0
+75%    37.75000  60625.750000            60602.0
+max    50.00000  60659.000000            60602.0
+--------------------------------------------------
+
+
+
+================================================================================
